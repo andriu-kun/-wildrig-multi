@@ -1,5 +1,5 @@
 # WildRig Multi
-multi algo miner for AMD, NVIDIA and Intel gpu's
+multi algo miner for AMD, NVIDIA and Intel GPUs
 
 [Discord community](https://discord.gg/ZGDaQ6edXb)
 
@@ -8,7 +8,7 @@ multi algo miner for AMD, NVIDIA and Intel gpu's
 - **evohash** and some other x-like algorithms produce incorrect shares on NVIDIA Blackwell gpu's
 - any report is welcome! :)
 
-# SUPPORTED GPU's
+# SUPPORTED GPUs
 ## AMD:
 - **GCN 2nd gen**: Radeon R7 260, R9 290, R9 295X2, R7 360, R9 390
 - **GCN 3rd gen**: Radeon R9 285, R9 380, R9 Fury, R9 Nano
@@ -111,7 +111,7 @@ Options:
       --watchdog                 enable checking how long videocards are running OpenCL kernel(terminate if more than 30 sec.)
       --watchdog-script FILE     file to execute when watchdog triggers(can be used without --watchdog parameter)
       --strategy N               strategy of feeding videocards with job(default: 0)
-      --split-job N              amount of gpu's(or threads of it, keep this in mind) solving one job
+      --split-job N              amount of GPUs(or threads of it, keep this in mind) solving one job
 
       --opencl-platforms LIST    list of OpenCL platforms to use(amd, nvidia or intel; default: all)
       --force-eff-mode           force to use efficient kernels when possible(e.g. memehash, skydoge)
@@ -125,7 +125,7 @@ Options:
       --no-nvml                  disable monitoring via NVML
       --no-sysfs                 disable monitoring via sysfs
 
-  -d, --gpu-list LIST            list of gpu's to use(default: all)
+  -d, --gpu-list LIST            list of GPUs to use(default: all)
       --gpu-threads N            set amount of threads per gpu(default: auto)
       --gpu-affinity N           affine GPU threads to a specific CPU thread
   -i, --gpu-intensity N          set intensity per gpu(default: auto)
