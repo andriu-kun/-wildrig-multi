@@ -30,7 +30,7 @@ Pitcairn, Tahiti and other old cards of **GCN 1st gen**(like HD 78x0, HD 79x0, R
 - **Ada Lovelace**: RTX 40x0 series, Quadro Ada
 - **Blackwell**: RTX 50x0 series
 
-Minimum driver versio is 452.39+ on Windows and 450.80.02+ on Linux. Supported list of gpu's is much longer, but not all of them have default intensity value, so use parameter *--gpu-instensity* to get better hashrate
+Minimum driver version is 452.39+ on Windows and 450.80.02+ on Linux. Supported list of GPUs is much longer, but not all of them have default intensity value, so use parameter *--gpu-intensity* to get better hashrate
 
 ## INTEL:
 - **Intel Arc Alchemist**: A310(E), A350(M,E), A370(M,E), A380(E), A530M, A550M, A570M, A580(E), A730M, A750(E), A770(M)
@@ -105,7 +105,7 @@ Options:
 
       --send-stale               send stale shares
       --diff-factor N            difficulty factor to use instead of algo default(default: 0)
-      --no-extranonce            disable exranonce subscription
+      --no-extranonce            disable extranonce subscription
       --protocol PROTOCOL        set stratum protocol(ethproxy, ethstratum, stratum, stratum1, stratum2)
 
       --watchdog                 enable checking how long videocards are running OpenCL kernel(terminate if more than 30 sec.)
